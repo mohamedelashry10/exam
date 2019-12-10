@@ -1,0 +1,94 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+h3 {
+    margin: 18px 0;
+    color: #807777;
+}
+.container-fluid {
+    background: #212529;
+}
+
+/*********************  Start [Login] Style ****************** */
+
+.login input {
+    border-radius: 7px;
+    border: 1px solid white;
+    margin-left: 10px;
+    background-color: rgb(233, 231, 231);
+}
+
+.login  .submit{
+    background: #4747fb;
+    border: 1px solid #4747fb;
+    color: white;
+    padding: 5px 7px;
+    font-size: 15px;
+    font-weight: 900;
+}
+@media screen and (max-width: 760px) {
+    .login form input {
+      width: 100%;
+      margin: 3px  ;
+    }
+  }
+ @media screen and (max-width:1024px){
+     .login form input {
+         margin: 2px;
+     }
+ }
+
+/*
+@media screen and (max-width:400px)
+{
+.className {
+    width:200px
+}*/
+/*********************  End [Login] Style ****************** */
+
+/********************* Start NavBar Style ****************** */
+#navbarNav .navbar-nav a {
+    color: white;
+    font-weight: 600;
+}
+#navbarNav .navbar-nav a:hover {
+    background: red;
+    border-radius: 10px;
+}
+
+/********************* End NavBar Style ****************** */
+
+
+/********************* Start Register Form Style ****************** */
+.register .row {
+    margin-bottom: 15px;
+}
+.register .row .btn {
+    padding: 7px 23px;
+}
+.register span {
+    cursor: pointer;
+}
+.register .logIn {
+    color: #007bff;
+}
+.register .signUp {
+    color: #30b130;
+}
+.register .container .form2 {
+    display: none;
+}
+.pass {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    font-size: 27px;
+}
+@media screen and (max-width:812px)
+{
+    .register .row .btn{
+        width: 100%;
+    }
+}
+/********************* End Register Form Style ****************** */

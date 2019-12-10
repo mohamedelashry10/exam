@@ -1,0 +1,151 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <title>Register Page </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="includes/bootstrap.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="includes/main.css"/>
+    </head>
+    <body>
+       <!-- <div class="container-fluid header">
+            <div class="row login">
+                    <div class="col-md-12 ">
+                        <div class="offset-md-5 offset-lg-7 pt-3">  offset in md 5 because responsive of ipad
+                            <form action="" method="">
+                                <input type="text" placeholder="User Name" >
+                                <input type="password" placeholder="Password">
+                                <input type="submit" value="Log In" class="submit"/>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        </div> -->
+
+        <!-- ********************  Start NavBar  *********************************-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="images/oshine-v15-logo-white.png"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  justify-content-center "  id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link pl-3 pr-3" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-3 pr-3" href="#" >Registration</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-3 pr-3" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pl-3 pr-3" href="#">Exam</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link pl-3 pr-3" href="#">...</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <!-- ********************  End NavBar  *********************************-->
+
+
+        <!-- ********************  Start register Form  *********************************-->
+
+        <div class="register">
+            <div class="container">
+                <h3 class="text-center"> <span class="logIn"> Login</span> ||<span class="signUp"> Sign Up</span></h3>
+                
+                <!-- **************************** START Form for Sgin UP ************************* -->
+                <form action="" method=""> 
+                    <div class="row">
+                        <div class="col-md-2"> 
+                            <label for="exampleInputEmail1">Email  </label>
+                        </div>
+                        <div class="col-md-7">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2"> 
+                            <label for="exampleInputEmail1">Password </label>
+                        </div>
+                        <div class="col-md-7">
+                            <input type="password" class="form-control" placeholder="Enter Password">
+                            <i class="fa fa-eye pass"></i>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2"> 
+                            <label for="exampleInputEmail1">Confirm password</label>
+                        </div>
+                        <div class="col-md-7">
+                            <input type="password" class="form-control"  placeholder="Enter Confirm Password">
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-2"> 
+                            <label for="exampleInputEmail1">Full Name  </label>
+                        </div>
+                        <div class="col-md-7">
+                            <input type="text" class="form-control"  placeholder="Enter Your Name">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-7 offset-md-2">
+                            <input type="button" class=" btn btn-primary"  value="Save">
+                        </div>
+                    </div>
+                </form>
+                <!-- **************************** End Form for Sgin UP ************************* -->
+
+                <!-- **************************** START Form for Log In ************************* -->
+                <div class="form2">
+                    <form action="" method=""> 
+                        <div class="row">
+                            <div class="col-md-2"> 
+                                <label for="exampleInputEmail1">Email  </label>
+                            </div>
+                            <div class="col-md-7">
+                                <input type="email" class="form-control" placeholder="Enter email">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-2"> 
+                                <label for="exampleInputEmail1">Password </label>
+                                
+                            </div>
+                            <div class="col-md-7">
+                                <input type="password" class="form-control"  placeholder="Enter Password">
+                                <i class="fa fa-eye pass"></i>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-7 offset-md-2">
+                                <input type="button" class=" btn btn-primary"  value="Log In">
+                            </div>
+                        </div>
+                    </form>
+                 </div>
+                <!-- **************************** START Form for Log In ************************* -->
+
+            </div>
+        </div>
+        <!-- ********************  End register Form  *********************************-->
+
+          <script src="includes/jquery-3.3.1.slim.min.js"></script>
+        <script src="includes/bootstrap.bundle.min.js"></script>
+        <script src="includes/script.js"></script>
+    </body>
+</html>
