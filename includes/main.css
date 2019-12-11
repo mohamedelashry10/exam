@@ -6,22 +6,21 @@ h3 {
     margin: 18px 0;
     color: #807777;
 }
-.container-fluid {
-    background: #212529;
-}
+
 
 /*********************  Start [Login] Style ****************** */
 
 .login input {
     border-radius: 7px;
-    border: 1px solid white;
+    border: 1px solid #007bff;
     margin-left: 10px;
-    background-color: rgb(233, 231, 231);
+    height: 32px;
+    
 }
 
 .login  .submit{
-    background: #4747fb;
-    border: 1px solid #4747fb;
+    background: #007bff ;
+    border: 1px solid #007bff ;
     color: white;
     padding: 5px 7px;
     font-size: 15px;
@@ -38,7 +37,13 @@ h3 {
          margin: 2px;
      }
  }
-
+@media screen and (max-width:822px)
+{
+    .register .btn 
+    {
+        margin-bottom: 15px;
+    } 
+}
 /*
 @media screen and (max-width:400px)
 {
@@ -53,8 +58,9 @@ h3 {
     font-weight: 600;
 }
 #navbarNav .navbar-nav a:hover {
-    background: red;
+    background: rgb(255, 255, 255);
     border-radius: 10px;
+    color: #007bff;
 }
 
 /********************* End NavBar Style ****************** */
@@ -74,8 +80,9 @@ h3 {
     color: #007bff;
 }
 .register .signUp {
-    color: #30b130;
+    color: #5db130;
 }
+
 .register .container .form2 {
     display: none;
 }
